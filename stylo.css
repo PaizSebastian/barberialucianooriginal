@@ -1,0 +1,134 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+    body{
+        background-image: url(./imagenes/IMG_8724.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .titulo{
+        font-family:'Poppins', sans-serif; 
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .tabla{
+        margin: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .adultos, .jovenes, .niños{
+        font-family:'Poppins', sans-serif; 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+    }
+    .fotos{
+        width: 95%;
+        height: 500px;
+        border-radius: 20px;
+        display: flex;
+
+        
+    }
+
+
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .items.active {
+        text-decoration: underline;
+    }
+
+   header {
+    background-color: black;
+   
+   }
+
+   .encabezado{
+    display: flex;
+    align-items: center;
+    
+   }
+    .navbar{
+        display: flex;
+        color: white;
+        list-style-type: none;
+        gap: 10px;
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }  
+      .botonTurno {
+        width: 130px;
+        height: 50px;
+        border-radius: 15px;
+        
+    }
+    .botonTurno:hover{
+        scale: 1.1;
+        transition: 1s;
+    }
+    
+    .hermano{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+       
+    }
+    
+    .contactos {
+        height: 30px;
+        width: 30px;
+        background-color: grey;
+        border-radius: 50px;
+
+    }
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .pie {
+        background-color:#6c757d;
+        display: flex;
+        justify-content: center;
+        width: max-content;
+    } 
+       .direccion{
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagen_1 , .imagen_2, .imagen_3{ 
+        background-color:#6c757d;
+        display: flex;
+        justify-content: center;
+        width: max-content;
+        padding: 20px 60px 5px 60px;
+        border-radius: 10px;
+    }    
+    
+
+    .tabla{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    
+
